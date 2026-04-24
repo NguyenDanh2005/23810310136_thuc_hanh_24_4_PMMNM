@@ -1,0 +1,114 @@
+/* Student Manager - Frontend Table Styles */
+
+
+.sm-wrapper {
+    max-width: 860px;
+    margin: 30px auto;
+    padding: 24px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: rgba(255, 255, 255, 0.88);
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+    backdrop-filter: blur(4px);
+}
+
+.sm-title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #1e3a5f;
+    margin-bottom: 16px;
+    letter-spacing: 0.5px;
+}
+
+.sm-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* Header */
+.sm-table thead tr {
+    background: linear-gradient(135deg, #1e3a5f, #2271b1);
+    color: #ffffff;
+    text-align: left;
+}
+
+.sm-table th {
+    padding: 13px 18px;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    border: none;
+}
+
+/* Body */
+.sm-table td {
+    padding: 11px 18px;
+    border-bottom: 1px solid #e8edf3;
+    color: #333;
+    vertical-align: middle;
+}
+
+.sm-table tbody tr {
+    background-color: #ffffff;
+    transition: background-color 0.18s ease;
+}
+
+.sm-table tbody tr:nth-child(even) {
+    background-color: #f4f8fd;
+}
+
+.sm-table tbody tr:hover {
+    background-color: #dbeafe;
+}
+
+.sm-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* STT column */
+.sm-table td:first-child,
+.sm-table th:first-child {
+    text-align: center;
+    width: 55px;
+}
+
+/* Badge cho Lớp */
+.sm-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #e0f0ff;
+    color: #1a6bbf;
+}
+
+.sm-badge.marketing {
+    background-color: #fef3c7;
+    color: #b45309;
+}
+
+.sm-badge.kinhte {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+/* Footer count */
+.sm-footer {
+    text-align: right;
+    font-size: 12px;
+    color: #888;
+    margin-top: 8px;
+}
+
+/* Ẩn header và footer trên trang danh sách sinh viên */
+.page-template-default:has(.sm-wrapper) header,
+.page-template-default:has(.sm-wrapper) footer {
+    display: none !important;
+}
