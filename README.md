@@ -3,7 +3,9 @@
 Plugin WordPress quản lý sinh viên với Custom Post Type, Meta Boxes và Shortcode.
 
 ---
-
+# Họ và tên : Nguyễn Văn Danh
+# MSV : 23810310136
+# lớp : D18CNPM2
 ## Cấu trúc thư mục
 
 ```
@@ -42,8 +44,9 @@ student-manager/
    - **Lớp / Chuyên ngành** (chọn từ dropdown: CNTT, Kinh tế, Marketing)
    - **Ngày sinh** (chọn từ date picker)
 5. Nhấn **Publish** để lưu.
+   
+<img width="1919" height="801" alt="image" src="https://github.com/user-attachments/assets/4b512b89-0615-4d15-89eb-2f6b7eec766f" />
 
-![Màn hình thêm sinh viên](assets/screenshot-them-sinh-vien.png)
 
 ---
 
@@ -61,15 +64,11 @@ student-manager/
 ---
 
 ## Kết quả hiển thị
+<img width="1908" height="821" alt="image" src="https://github.com/user-attachments/assets/356fc2ee-98e0-4deb-89f9-26782ec993d0" />
 
-Bảng danh sách sinh viên sẽ hiển thị với các cột:
+---
+<img width="1916" height="784" alt="image" src="https://github.com/user-attachments/assets/ebf0c4ea-1acf-422f-8258-f007cc22c165" />
 
-| STT | MSSV  | Họ tên       | Lớp / Chuyên ngành | Ngày sinh  |
-|-----|-------|--------------|--------------------|------------|
-| 1   | SV001 | Nguyễn Văn A | CNTT               | 01/01/2003 |
-| 2   | SV002 | Trần Thị B   | Marketing          | 15/06/2002 |
-
-> Ảnh chụp màn hình: *(chụp và đính kèm vào đây sau khi cài đặt)*
 
 ---
 
